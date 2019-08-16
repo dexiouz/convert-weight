@@ -1,12 +1,12 @@
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 body {
   width: 100%;
   height: 70vh;
-  background: #1890ff
+  background: #1890ff;
 }
 .wrapper {
   display: flex;
@@ -16,11 +16,11 @@ body {
   height: 100%;
   background: #0a2e50;
   margin: 50px auto;
-  border-radius: 10px
+  border-radius: 10px;
 }
 h1 {
   color: #ffff;
-  padding: 10px 30px
+  padding: 10px 30px;
 }
 .weights {
   width: 100%;
@@ -36,7 +36,7 @@ h1 {
   color: white;
   margin-top: 10px;
   border-radius: 10px;
-  padding: 5px
+  padding: 5px;
 }
 
 #kgOutPut {
@@ -46,7 +46,7 @@ h1 {
   color: white;
   margin-top: 10px;
   border-radius: 10px;
-  padding: 5px
+  padding: 5px;
 }
 
 #ounceOutPut {
@@ -56,8 +56,48 @@ h1 {
   color: white;
   margin-top: 10px;
   border-radius: 10px;
-  padding: 5px
+  padding: 5px;
 }
 /* p {
   margin: 10px auto
 } */
+footer {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  height: 10vh;
+  justify-content: center;
+}
+
+header {
+  background-color: aquamarine;
+  height: 15vh;
+  width: 100%;
+  align-items: center;
+  color: black;
+  display: flex;
+}
+.name {
+  font-size: 5vh;
+}
+.logout {
+  margin-left: 10%;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 5vh;
+}
+
+.hold {
+  display: flex;
+
+  align-items: center;
+  width: 80%;
+}
+.mytem {
+  margin-left: 45%;
+  text-align: center;
+  font-size: 5vh;
+  text-decoration: underline;
+}
