@@ -20,3 +20,16 @@ function convert (e) {
   const ounces = (document.querySelector("#ounceOutPut span").innerHTML =
     pounds * 16);
 };
+
+let blue = document.querySelector(".changeblue").addEventListener("click" , ()=>{
+  document.body.style.backgroundColor = "blue"
+})
+let red = document.querySelector(".changered").addEventListener("click" , ()=>{
+  document.body.style.backgroundColor = "red"
+})
+let green = document.querySelector(".changegreen").addEventListener("click" , ()=>{
+  document.body.style.backgroundColor = "green"
+})
+let purple = document.querySelector(".changepurple").addEventListener("click" , ()=>{
+  document.body.style.backgroundColor = "purple"
+})

@@ -2,10 +2,28 @@
   padding: 0;
   margin: 0;
 }
+.dav button{
+ margin-top: 2px;
+}
+
+.changeblue{
+  background-color: blue;
+}
+.changered{
+  background-color: red;
+}
+.changegreen{
+  background-color: green;
+}
+.changepurple{
+  background-color: purple;
+}
+
+
 
 body {
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   background: #1890ff;
 }
 .wrapper {
@@ -15,7 +33,7 @@ body {
   width: 30%;
   height: 100%;
   background: #0a2e50;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 10px;
 }
 h1 {
@@ -67,7 +85,7 @@ footer {
   display: flex;
   bottom: 0;
   position: absolute;
-  height: 10vh;
+  height: 20vh;
   justify-content: center;
 }
 
@@ -77,12 +95,12 @@ header {
   width: 100%;
   align-items: center;
   color: black;
-  display: flex;
+  
 }
 .name {
   font-size: 5vh;
 }
-.logout {
+.logout .dav {
   margin-left: 10%;
   border-radius: 5px;
   border: 2px solid black;
@@ -91,13 +109,18 @@ header {
 
 .hold {
   display: flex;
-
+ height: 100%;
   align-items: center;
-  width: 80%;
+  width: 100%;
+  justify-content: space-between;
 }
 .mytem {
-  margin-left: 45%;
+
   text-align: center;
   font-size: 5vh;
   text-decoration: underline;
+}
+.change{
+  
+  font-size: 3vh;
 }
